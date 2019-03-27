@@ -5,7 +5,7 @@ server:
     context-path: /
     
 spring:
-  #profiles: prod  #该环节为生产环境
+  profiles: prod  #该环节为生产环境
   datasource:
     #引入druid数据源
     type: com.alibaba.druid.pool.DruidDataSource
